@@ -1,0 +1,42 @@
+final List<Map<String, dynamic>> daftarMenu = [
+  {
+    'nama': 'Nasi Goreng',
+    'harga': 15000,
+    'kategori': 'Makanan',
+    'deskripsi': 'Nasi goreng spesial dengan telur dan ayam.',
+    'gambar': 'https://picsum.photos/seed/nasgor/400',
+    'rating': 4.8,
+  },
+  {
+    'nama': 'Mie Ayam',
+    'harga': 12000,
+    'kategori': 'Makanan',
+    'deskripsi': 'Mie ayam gurih dengan pangsit dan bakso.',
+    'gambar': 'https://picsum.photos/seed/mieayam/400',
+    'rating': 4.6,
+  },
+  {
+    'nama': 'Ayam Bakar',
+    'harga': 20000,
+    'kategori': 'Makanan',
+    'deskripsi': 'Ayam bakar bumbu kecap manis pedas.',
+    'gambar': 'https://picsum.photos/seed/ayambakar/400',
+    'rating': 4.9,
+  },
+  {
+    'nama': 'Es Teh Manis',
+    'harga': 5000,
+    'kategori': 'Minuman',
+    'deskripsi': 'Es teh segar manis, cocok buat cuaca panas.',
+    'gambar': 'https://picsum.photos/seed/esteh/400',
+    'rating': 4.7,
+  },
+  {
+    'nama': 'Jus Alpukat',
+    'harga': 10000,
+    'kategori': 'Minuman',
+    'deskripsi': 'Jus alpukat segar dengan susu kental manis.',
+    'gambar': 'https://picsum.photos/seed/alpukat/400',
+    'rating': 4.8,
+  },
+];
