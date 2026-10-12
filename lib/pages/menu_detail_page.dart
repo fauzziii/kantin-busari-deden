@@ -35,7 +35,7 @@ class _MenuDetailPageState extends State<MenuDetailPage> {
         slivers: [
           // === Hero Image + AppBar ===
           SliverAppBar(
-            expandedHeight: 280,
+            expandedHeight: 220,
             pinned: true,
             backgroundColor: Colors.white,
             leading: Padding(
@@ -52,6 +52,7 @@ class _MenuDetailPageState extends State<MenuDetailPage> {
               background: Image.network(
                 item['gambar'],
                 fit: BoxFit.cover,
+                alignment: Alignment.center,
                 errorBuilder: (_, __, ___) => Container(
                   color: Colors.grey.shade200,
                   child: Icon(
